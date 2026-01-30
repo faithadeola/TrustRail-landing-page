@@ -49,13 +49,13 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-4">
             <button
               className={`px-4 py-2 ${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white/90 hover:text-white'} transition-colors duration-200 font-medium`}
-              onClick={() => (window.location.href = 'http://localhost:5173/Login')}
+              onClick={() => (window.location.href = 'https://trustrail-project.netlify.app/login')}
             >
               Login
             </button>
             <button
               className="px-6 py-2.5 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-200"
-              onClick={() => (window.location.href = 'http://localhost:5173/Register')}
+              onClick={() => (window.location.href = 'https://trustrail-project.netlify.app/register')}
             >
               Get Started Free
             </button>
@@ -89,13 +89,13 @@ export default function Navigation() {
             ))}
             <button
               className="w-full block px-4 py-2 text-slate-700 hover:text-blue-600 transition-colors duration-200 font-medium text-left"
-              onClick={() => (window.location.href = 'http://localhost:5173/Login')}
+              onClick={() => (window.location.href = 'https://trustrail-project.netlify.app/login')}
             >
               Login
             </button>
             <button
               className="w-full block px-6 py-2.5 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-all duration-200 text-center"
-              onClick={() => (window.location.href = 'http://localhost:5173/Register')}
+              onClick={() => (window.location.href = 'https://trustrail-project.netlify.app/register')}
             >
               Get Started Free
             </button>

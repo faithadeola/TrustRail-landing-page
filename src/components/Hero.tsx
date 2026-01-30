@@ -30,7 +30,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2" onClick={() => window.location.href='/Register'}>
+              <button className="px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2" onClick={() => window.location.href='https://trustrail-project.netlify.app/register'}>
                 <Sparkles className="w-5 h-5" />
                 <span>Start Free Trial</span>
               </button>
